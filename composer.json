@@ -1,11 +1,16 @@
 {
     "name": "bentools/doctrine-ulid",
-    "description": "ULID support for Doctrine IDs",
+    "description": "ULID (Universally Unique Lexicographically Sortable Identifier) support for Doctrine IDs",
     "keywords": [
         "ulid",
         "uuid",
         "doctrine",
         "orm"
+    ],
+    "authors": [
+      {
+        "name": "Beno!t POLASZEK"
+      }
     ],
     "type": "library",
     "license": "MIT",

@@ -1,0 +1,31 @@
+{
+    "name": "bentools/doctrine-ulid",
+    "description": "ULID support for Doctrine IDs",
+    "keywords": [
+        "ulid",
+        "uuid",
+        "doctrine",
+        "orm"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "robinvdvleuten/ulid": "~2.0"
+    },
+    "require-dev": {
+        "doctrine/orm": "^2.3",
+        "phpunit/phpunit": "@stable",
+        "squizlabs/php_codesniffer": "@stable",
+        "satooshi/php-coveralls": "@stable"
+    },
+    "autoload": {
+        "classmap": [
+            "src/ULIDGenerator.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BenTools\\ULID\\Tests\\": "tests"
+        }
+    }
+}

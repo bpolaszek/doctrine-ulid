@@ -11,6 +11,8 @@ This small library adds support for [ULID](https://github.com/ulid/spec) in Doct
 
 ULIDs act like UUIDs that can be lexicographically sorted. ULIDs also have a smaller footprint (26 ANSI characters vs. 36 for UUIDs);
 
+This package integrates [robinvdvleuten/ulid](https://github.com/robinvdvleuten/php-ulid) as a `CustomIdGenerator`.
+
 Installation
 ------------
 

@@ -49,6 +49,51 @@ class Foo
 }
 ```
 
+Or use the following trait:
+
+
+```php
+use Doctrine\ORM\Mapping as ORM;
+use BenTools\GeneratedULIDTrait;
+
+/**
+ * @ORM\Entity()
+ */
+class Foo
+{
+
+    use GeneratedULIDTrait;
+    
+    // ... 
+    
+}
+```
+
+If you want to set ULIDs by yourself (this way, they can be generated on the client side), use the `EditableULIDTrait` which will expose a `setId()` method:
+
+
+```php
+use Doctrine\ORM\Mapping as ORM;
+use BenTools\EditableULIDTrait;
+
+/**
+ * @ORM\Entity()
+ * @ORM\HasLifecycleCallbacks()
+ */
+class Foo
+{
+
+    use EditableULIDTrait;
+    
+    // ... 
+    
+}
+```
+
+- If `setId()` is not called, an ULID will be automatically generated on persist.
+- Don't forget to add a `@HasLifecycleCallbacks()` annotation on top of your entity for this behavior to work properly.
+
+
 Tests
 -----
 

@@ -18,6 +18,7 @@
     <testsuites>
         <testsuite name="Test Suite">
            <file>tests/ULIDGeneratorTest.php</file>
+           <file>tests/FunctionnalTest.php</file>
         </testsuite>
     </testsuites>
     <filter>

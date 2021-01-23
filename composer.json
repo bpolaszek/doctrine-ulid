@@ -16,7 +16,7 @@
     "license": "MIT",
     "require": {
         "php": ">=7.3",
-        "robinvdvleuten/ulid": "~2.0|~3.0"
+        "robinvdvleuten/ulid": "~5.0"
     },
     "require-dev": {
         "doctrine/orm": "^2.3",

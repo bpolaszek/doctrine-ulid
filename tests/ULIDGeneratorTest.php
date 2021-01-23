@@ -18,7 +18,7 @@ class ULIDGeneratorTest extends TestCase
         $entity = new \stdClass();
         $generated = $generator->generate($em, $entity);
         $this->assertEquals('string', gettype($generated));
-        $this->assertRegExp('/[0-9][A-Z]/', $generated);
+        $this->assertMatchesRegularExpression('/[0-9][A-Z]/', $generated);
         $this->assertEquals(26, strlen($generated));
     }
     /**

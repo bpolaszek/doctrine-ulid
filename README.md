@@ -1,6 +1,6 @@
 [![Latest Stable Version](https://poser.pugx.org/bentools/doctrine-ulid/v/stable)](https://packagist.org/packages/bentools/doctrine-ulid)
 [![License](https://poser.pugx.org/bentools/doctrine-ulid/license)](https://packagist.org/packages/bentools/doctrine-ulid)
-[![Build Status](https://img.shields.io/travis/bpolaszek/doctrine-ulid/master.svg?style=flat-square)](https://travis-ci.org/bpolaszek/doctrine-ulid)
+![Build Status](https://github.com/bpolaszek/doctrine-ulid/workflows/CI%20Workflow/badge.svg)
 [![Coverage](https://codecov.io/gh/bpolaszek/doctrine-ulid/branch/master/graph/badge.svg?token=LYGYNDV8D2)](https://codecov.io/gh/bpolaszek/doctrine-ulid)[![Quality Score](https://img.shields.io/scrutinizer/g/bpolaszek/doctrine-ulid.svg?style=flat-square)](https://scrutinizer-ci.com/g/bpolaszek/doctrine-ulid)
 [![Total Downloads](https://poser.pugx.org/bentools/doctrine-ulid/downloads)](https://packagist.org/packages/bentools/doctrine-ulid)
 

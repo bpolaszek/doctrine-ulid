@@ -20,8 +20,8 @@
     },
     "require-dev": {
         "doctrine/orm": "^2.3",
-        "phpunit/phpunit": "^5.0|^6.0|^7.0",
-        "squizlabs/php_codesniffer": "@stable",
+        "phpunit/phpunit": "^9.0",
+        "squizlabs/php_codesniffer": "^3.5",
         "matthiasnoback/doctrine-orm-test-service-provider": "^3.0",
         "symfony/var-dumper": "^4.2"
     },

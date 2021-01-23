@@ -38,9 +38,10 @@ trait EditableULIDTrait
     /**
      * @PrePersist()
      * @internal
+     * @codingStandardsIgnoreStart
      */
     public function _setIdOnPersist()
-    {
+    { // codingStandardsIgnoreEnd
         if (null !== $this->id) {
             return;
         }

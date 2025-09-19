@@ -12,6 +12,9 @@ ULIDs act like UUIDs that can be lexicographically sorted. ULIDs also have a sma
 
 This package integrates [robinvdvleuten/ulid](https://github.com/robinvdvleuten/php-ulid) as a `CustomIdGenerator`.
 
+> [!IMPORTANT]  
+> This repository is no longer maintained. Please use `symfony/uid` instead.
+
 Installation
 ------------
 
